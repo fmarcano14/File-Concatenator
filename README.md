@@ -1,7 +1,7 @@
 # File Concatenator Chrome Extension
 
 ## Description
-A simple Chrome extension that allows users to select multiple files, concatenate their contents into a single `code.txt` file, and download it. Files are persisted across sessions using Chrome storage. Supports modern file pickers with fallback.
+A simple Chrome extension that allows users to select multiple files, concatenate their contents into a single  `code.txt` file, and download it. Useful for giving Grok 4 your whole codebase by combining files into one shareable text file. Files are persisted across sessions using Chrome storage. Supports modern file pickers with fallback.
 
 ## Features
 - Select files via native picker or fallback input.

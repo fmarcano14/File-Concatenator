@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>File Concatenator</title>
+  <style>
+    body {
+      width: 400px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      padding: 8px;
+      margin: 5px;
+      cursor: pointer;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      padding: 5px;
+      word-break: break-all;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #loading {
+      display: none;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <h2>File Concatenator</h2>
+  <button id="selectFiles">Select Files</button>
+  <button id="generateFile">Generate code.txt</button>
+  <button id="clearSelection">Clear Selection</button>
+  <h3>Selected Files:</h3>
+  <ul id="fileList"></ul>
+  <p id="loading">Loading...</p>
+  <input type="file" id="fileInput" multiple style="display: none;">
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "File Concatenator",
+  "version": "1.0",
+  "description": "Concatenates selected files into code.txt",
+  "permissions": [
+    "storage",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
